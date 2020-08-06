@@ -14,11 +14,11 @@ $ bundle install
 To run RSpec (with coverage) followed by Rubocop run script:  
 
 ```bash
-$ ./test/tdd.test
+$ ./scripts/tdd.test
 ```
 
 To test an individual item run:
 
 ```bash
-$ ./test/tdd.test [item_name]
+$ ./scripts/tdd.test [item_name]
 ```
