@@ -1,8 +1,7 @@
 require 'smoke_test'
 
-describe 'smoke_test' do
+describe SmokeTest do
   it '#true? returns true' do
-    smoke_test = SmokeTest.new
-    expect(smoke_test.true?).to eq true
+    expect(subject.true?).to eq true
   end
 end
